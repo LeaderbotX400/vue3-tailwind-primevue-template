@@ -20,7 +20,10 @@ export default defineConfig({
     Components({
       dts: true,
       resolvers: [
-        PrimeVueResolver(),
+        PrimeVueResolver({
+          importStyle: true,
+          importTheme: "tailwind-light"
+        }),
       ]
     }),
     AutoImport({

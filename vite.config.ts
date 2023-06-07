@@ -41,7 +41,7 @@ export default defineConfig({
   ],
   define: {
     // vue
-    __VUE_OPTIONS_API__: true,
+    __VUE_OPTIONS_API__: false,
     __VUE_PROD_DEVTOOLS__: false,
   },
   esbuild: {
